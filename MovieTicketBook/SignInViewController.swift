@@ -17,6 +17,8 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated:true)
         backGroundImage()
+        hideKeyboardWhenTappedAround()
+        
     }
     
     @IBAction func signinBtn(_ sender: Any) {
@@ -83,4 +85,13 @@ class SignInViewController: UIViewController {
     
     
     
+}
+
+
+
+extension SignInViewController{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {   //delegate method
+        textField.resignFirstResponder()
+        return true
+    }
 }

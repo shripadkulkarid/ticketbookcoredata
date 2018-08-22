@@ -54,6 +54,7 @@ class BookTicketViewController: UIViewController,UIPickerViewDelegate, UIPickerV
         timeTxt.inputView = timePicker
         timeTxt.inputAccessoryView = toolBar
         navigationItem.title = "Welcome \(username)!!"
+        hideKeyboardWhenTappedAround()
     }
     @objc func donePressed(sender: UIBarButtonItem) {
         
@@ -80,7 +81,7 @@ class BookTicketViewController: UIViewController,UIPickerViewDelegate, UIPickerV
         {
             let alertController = UIAlertController(title: "Something Wrong!!", message: "All fields are mandatory!!", preferredStyle: .alert)
             let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
-               
+                
             }
             alertController.addAction(OKAction)
             self.present(alertController, animated: true, completion:nil)
@@ -88,7 +89,7 @@ class BookTicketViewController: UIViewController,UIPickerViewDelegate, UIPickerV
         
         
         
-   let vc = self.getViewControllerFromStoryBoard(storyBoardName: "Main", identifier: "SummeryViewController") as! SummeryViewController
+        let vc = self.getViewControllerFromStoryBoard(storyBoardName: "Main", identifier: "SummeryViewController") as! SummeryViewController
         vc.filmName = self.movieTxt.text!
         vc.timeLb = self.timeTxt.text!
         vc.totalFare = self.totalFarelbl.text!
@@ -109,7 +110,7 @@ class BookTicketViewController: UIViewController,UIPickerViewDelegate, UIPickerV
         else if pickerView == timePicker{
             return timeSchedule.count
         }
-       return 1
+        return 1
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
@@ -143,14 +144,14 @@ class BookTicketViewController: UIViewController,UIPickerViewDelegate, UIPickerV
             return timeSchedule[row]
         }
         return ""
-       
+        
     }
     func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
     
     func multiplication(totalSeat:Int,totalFare:Int)->Int  {
-     
+        
         return totalFare*totalSeat
     }
 }
