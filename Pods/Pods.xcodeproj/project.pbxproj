@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0263E3861D1333EB8AB850C1EAC500C5 /* Pods-MovieTicketBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA28BAF6358C4682F780E59DA397A36 /* Pods-MovieTicketBook-dummy.m */; };
+		0D7007D60DF0DB83B5DBA15C6F418DE0 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		1DDA701B334ACC58755CC1D3E1C05D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		24165DEA5A4090207A84A3F58E83B6CB /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */; };
+		366EF9A2C9C46A864E52D21AFA8C448F /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */; };
+		455C968143E10A511FBB379CDFB2A83D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AE19A0CB9F1779B05A95C7CDF9C417 /* Pods-MovieTicketBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9E59BF9FF1DBEAC86C3ECC2F13122E /* Pods-MovieTicketBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF39AED94B6D6FCEC49BFBCEC167467 /* Pods-MovieTicketBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F654C5ED5B3E8BA9C4757D648473D23 /* Pods-MovieTicketBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B13A4173118822C67C27E5978E7DCB /* Pods-MovieTicketBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF4057EBF428E60929180D26997F6C2 /* Pods-MovieTicketBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D313BF9F9AC531A7254217A071ADFC /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */; };
+		8D09DDE47DC78B958986A85CD67843A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1D254D0A3BAE67BD9BAA8D7189CEAFE /* Pods-MovieTicketBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B45B84FCF2748FB19EBD9D0587DA2 /* Pods-MovieTicketBookTests-dummy.m */; };
+		A4C2C056C92F9B3A7C6F6BAB8784FB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E7487DC5BC2E77068EB3F2916BE2156C /* Pods-MovieTicketBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F2870BC836669D836539DBB8B88D3 /* Pods-MovieTicketBookUITests-dummy.m */; };
+		FEFDE4FE78E9D33C026866AA23C3C760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9093C89CCE21506BB86B67E8E06B53C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31700DEAFD3D1BE3834114F3A1DBA85;
+			remoteInfo = "Pods-MovieTicketBook";
+		};
+		B99F566B00A11FEC266D14DC91186A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAFE0708D8AA79CFA0C40E614AC75C7;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		E836E9191378694A01B4AC0C124C49DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31700DEAFD3D1BE3834114F3A1DBA85;
+			remoteInfo = "Pods-MovieTicketBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EFA2BFF9CDC0362538117C1D56D71A /* Pods-MovieTicketBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBook.release.xcconfig"; sourceTree = "<group>"; };
+		04235882B2139BF582145F215FC32CC6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		103A3A3365679F99B49B14B61E985455 /* Pods-MovieTicketBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		1F9E59BF9FF1DBEAC86C3ECC2F13122E /* Pods-MovieTicketBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieTicketBook-umbrella.h"; sourceTree = "<group>"; };
+		2F5508AD0AE38646180F6A8F6A3E5387 /* Pods-MovieTicketBookTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBookTests-frameworks.sh"; sourceTree = "<group>"; };
+		342F2870BC836669D836539DBB8B88D3 /* Pods-MovieTicketBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieTicketBookUITests-dummy.m"; sourceTree = "<group>"; };
+		36445F609509E66ED7151E821DA5C059 /* Pods-MovieTicketBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieTicketBookUITests.modulemap"; sourceTree = "<group>"; };
+		3F24AD5E7B6267F8BBDF4641EA65A508 /* Pods_MovieTicketBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieTicketBook.framework; path = "Pods-MovieTicketBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443F38756676D92252D5A656C78F05A7 /* Pods-MovieTicketBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieTicketBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		489D9B53CA84BB64F905EDFCC46BA875 /* Pods-MovieTicketBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieTicketBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D1AD942D5E6CB444B49F48ABC32C81C /* Pods-MovieTicketBookTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBookTests-resources.sh"; sourceTree = "<group>"; };
+		5CD6182EBD74A1000E12855311238094 /* Pods-MovieTicketBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieTicketBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E668632243529041FA7399F2831958B /* Pods-MovieTicketBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieTicketBook.modulemap"; sourceTree = "<group>"; };
+		5FF4057EBF428E60929180D26997F6C2 /* Pods-MovieTicketBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieTicketBookUITests-umbrella.h"; sourceTree = "<group>"; };
+		638A0D4189458020ED01300E712A0342 /* Pods-MovieTicketBookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F654C5ED5B3E8BA9C4757D648473D23 /* Pods-MovieTicketBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieTicketBookTests-umbrella.h"; sourceTree = "<group>"; };
+		7A159741DA4411C190FD42F8AA4F6D55 /* Pods-MovieTicketBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A5B45B84FCF2748FB19EBD9D0587DA2 /* Pods-MovieTicketBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieTicketBookTests-dummy.m"; sourceTree = "<group>"; };
+		7B6CDF7D4ED938CF9C5EA6D49F5786F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		8632517592C6BE13F33B3E18EB70D7FE /* Pods-MovieTicketBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieTicketBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D7E198FBC9FA67531DB5C72CF98DDE6 /* Pods-MovieTicketBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieTicketBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D996435DDD1F661F3246CA95554255 /* Pods-MovieTicketBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieTicketBookTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96021B73AB3076CE469755681DF3DADF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7F0BA2852BF139477E7CEB5B7EF2BD /* Pods-MovieTicketBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBook.debug.xcconfig"; sourceTree = "<group>"; };
+		A17A19AB5B3ABF331B45AC8C36A95145 /* Pods_MovieTicketBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieTicketBookUITests.framework; path = "Pods-MovieTicketBookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39971BB30FD02CFE4133ADB86300FA4 /* Pods-MovieTicketBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieTicketBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD4D0F1EF03EFB088DB53A651D018BE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D4D56EA9E003401D1CDABF69F2F0E7 /* Pods_MovieTicketBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieTicketBookTests.framework; path = "Pods-MovieTicketBookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACB0032BC86FBCDABD4095CAFFA3E50 /* Pods-MovieTicketBookUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBookUITests-resources.sh"; sourceTree = "<group>"; };
+		C3646A83A2942752E23468B3858D9930 /* Pods-MovieTicketBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8274C899786609C057DCF857395D6F2 /* Pods-MovieTicketBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBook-resources.sh"; sourceTree = "<group>"; };
+		C94491D574E54E2C377D1488AC833850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		CDAFDE2CA69DCAC23B884EE6E57759E2 /* Pods-MovieTicketBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieTicketBook-frameworks.sh"; sourceTree = "<group>"; };
+		CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		F2B33A256EFF97DE7ECC3DCEC17EED03 /* Pods-MovieTicketBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieTicketBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA28BAF6358C4682F780E59DA397A36 /* Pods-MovieTicketBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieTicketBook-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EACC00C35A9C98756BF91EF29A7B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDA701B334ACC58755CC1D3E1C05D5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B804366A6FC4E8652CC6DCF25409832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C2C056C92F9B3A7C6F6BAB8784FB8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DD198237B754CBC5C16E27CEFD88C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFDE4FE78E9D33C026866AA23C3C760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28EB07F64A044C03E99306D66461CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D09DDE47DC78B958986A85CD67843A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96021B73AB3076CE469755681DF3DADF /* Info.plist */,
+				CF536E2A36AF5426B119EA4A20475CFD /* SkyFloatingLabelTextField.modulemap */,
+				D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */,
+				477402675ED0A2988A6B58AC17AAFFA7 /* SkyFloatingLabelTextField-dummy.m */,
+				8547A24E961A2A286801CCA0B57DA15D /* SkyFloatingLabelTextField-prefix.pch */,
+				CC73AA8035BD4108AD320A107A91F85C /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		58B939017528F929E2B90D97D835D03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F24AD5E7B6267F8BBDF4641EA65A508 /* Pods_MovieTicketBook.framework */,
+				B4D4D56EA9E003401D1CDABF69F2F0E7 /* Pods_MovieTicketBookTests.framework */,
+				A17A19AB5B3ABF331B45AC8C36A95145 /* Pods_MovieTicketBookUITests.framework */,
+				04235882B2139BF582145F215FC32CC6 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B613D6AB10EDE701277A6FFB86C4D70 /* Pods-MovieTicketBook */ = {
+			isa = PBXGroup;
+			children = (
+				C94491D574E54E2C377D1488AC833850 /* Info.plist */,
+				5E668632243529041FA7399F2831958B /* Pods-MovieTicketBook.modulemap */,
+				8D7E198FBC9FA67531DB5C72CF98DDE6 /* Pods-MovieTicketBook-acknowledgements.markdown */,
+				A39971BB30FD02CFE4133ADB86300FA4 /* Pods-MovieTicketBook-acknowledgements.plist */,
+				FEA28BAF6358C4682F780E59DA397A36 /* Pods-MovieTicketBook-dummy.m */,
+				CDAFDE2CA69DCAC23B884EE6E57759E2 /* Pods-MovieTicketBook-frameworks.sh */,
+				C8274C899786609C057DCF857395D6F2 /* Pods-MovieTicketBook-resources.sh */,
+				1F9E59BF9FF1DBEAC86C3ECC2F13122E /* Pods-MovieTicketBook-umbrella.h */,
+				9D7F0BA2852BF139477E7CEB5B7EF2BD /* Pods-MovieTicketBook.debug.xcconfig */,
+				03EFA2BFF9CDC0362538117C1D56D71A /* Pods-MovieTicketBook.release.xcconfig */,
+			);
+			name = "Pods-MovieTicketBook";
+			path = "Target Support Files/Pods-MovieTicketBook";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E538C50B5FBAB3A28B0BDDB5EEAA44A /* Pods */,
+				58B939017528F929E2B90D97D835D03C /* Products */,
+				D145B79D959BB3A039E0E77DF582CB11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC7359DF0A30256CDCB8BBA202F274C /* Pods-MovieTicketBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D0F1EF03EFB088DB53A651D018BE7 /* Info.plist */,
+				91D996435DDD1F661F3246CA95554255 /* Pods-MovieTicketBookTests.modulemap */,
+				489D9B53CA84BB64F905EDFCC46BA875 /* Pods-MovieTicketBookTests-acknowledgements.markdown */,
+				443F38756676D92252D5A656C78F05A7 /* Pods-MovieTicketBookTests-acknowledgements.plist */,
+				7A5B45B84FCF2748FB19EBD9D0587DA2 /* Pods-MovieTicketBookTests-dummy.m */,
+				2F5508AD0AE38646180F6A8F6A3E5387 /* Pods-MovieTicketBookTests-frameworks.sh */,
+				4D1AD942D5E6CB444B49F48ABC32C81C /* Pods-MovieTicketBookTests-resources.sh */,
+				6F654C5ED5B3E8BA9C4757D648473D23 /* Pods-MovieTicketBookTests-umbrella.h */,
+				F2B33A256EFF97DE7ECC3DCEC17EED03 /* Pods-MovieTicketBookTests.debug.xcconfig */,
+				C3646A83A2942752E23468B3858D9930 /* Pods-MovieTicketBookTests.release.xcconfig */,
+			);
+			name = "Pods-MovieTicketBookTests";
+			path = "Target Support Files/Pods-MovieTicketBookTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE06ED5906FCC1C2AA7EDA322B1D832D /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DC2FD3B444C15779258A1E4254154328 /* SkyFloatingLabelTextField.swift */,
+				18AB6AF7BE4547CE64DE5711633CFFC0 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				DFEECCA755E56BD7670ACA5B8FDE8C49 /* UITextField+fixCaretPosition.swift */,
+				4CB2F19FE17F98D8D75BDB493855D972 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		D145B79D959BB3A039E0E77DF582CB11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B613D6AB10EDE701277A6FFB86C4D70 /* Pods-MovieTicketBook */,
+				9FC7359DF0A30256CDCB8BBA202F274C /* Pods-MovieTicketBookTests */,
+				FAF4E58328BF3CA65EDC5DB56EB516A2 /* Pods-MovieTicketBookUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAF4E58328BF3CA65EDC5DB56EB516A2 /* Pods-MovieTicketBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CDF7D4ED938CF9C5EA6D49F5786F2 /* Info.plist */,
+				36445F609509E66ED7151E821DA5C059 /* Pods-MovieTicketBookUITests.modulemap */,
+				8632517592C6BE13F33B3E18EB70D7FE /* Pods-MovieTicketBookUITests-acknowledgements.markdown */,
+				5CD6182EBD74A1000E12855311238094 /* Pods-MovieTicketBookUITests-acknowledgements.plist */,
+				342F2870BC836669D836539DBB8B88D3 /* Pods-MovieTicketBookUITests-dummy.m */,
+				638A0D4189458020ED01300E712A0342 /* Pods-MovieTicketBookUITests-frameworks.sh */,
+				BACB0032BC86FBCDABD4095CAFFA3E50 /* Pods-MovieTicketBookUITests-resources.sh */,
+				5FF4057EBF428E60929180D26997F6C2 /* Pods-MovieTicketBookUITests-umbrella.h */,
+				103A3A3365679F99B49B14B61E985455 /* Pods-MovieTicketBookUITests.debug.xcconfig */,
+				7A159741DA4411C190FD42F8AA4F6D55 /* Pods-MovieTicketBookUITests.release.xcconfig */,
+			);
+			name = "Pods-MovieTicketBookUITests";
+			path = "Target Support Files/Pods-MovieTicketBookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B724DA4D52519514586C35B9BED3234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AE19A0CB9F1779B05A95C7CDF9C417 /* Pods-MovieTicketBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB318E612C3F1899857C494CA9048F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF39AED94B6D6FCEC49BFBCEC167467 /* Pods-MovieTicketBookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104ECEDF11D4ADE4991E39EEED2932C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B13A4173118822C67C27E5978E7DCB /* Pods-MovieTicketBookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C3D432C62DE8646C7D18574D053FE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455C968143E10A511FBB379CDFB2A83D /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FAFE0708D8AA79CFA0C40E614AC75C7 /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D22500B8AC4F390E15664318CD802B /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				C9D86F9C661259A654139DF361C1D2AA /* Sources */,
+				8B804366A6FC4E8652CC6DCF25409832 /* Frameworks */,
+				76C3D432C62DE8646C7D18574D053FE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 04235882B2139BF582145F215FC32CC6 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B31700DEAFD3D1BE3834114F3A1DBA85 /* Pods-MovieTicketBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5AB964ADBFDC510C460650A518CA09 /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBook" */;
+			buildPhases = (
+				C8100350363E7AB02F0982815D9B821C /* Sources */,
+				17EACC00C35A9C98756BF91EF29A7B85 /* Frameworks */,
+				0B724DA4D52519514586C35B9BED3234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32CE4DE599E1F60E596F65A8B7075457 /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieTicketBook";
+			productName = "Pods-MovieTicketBook";
+			productReference = 3F24AD5E7B6267F8BBDF4641EA65A508 /* Pods_MovieTicketBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9792E64C16E26583AD7DB5DC0A04B72 /* Pods-MovieTicketBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CF1EF64194D4F518EFD6DE95840F48 /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBookTests" */;
+			buildPhases = (
+				CF6A7FE62F1BEACE8ED6845316C41611 /* Sources */,
+				F28EB07F64A044C03E99306D66461CB6 /* Frameworks */,
+				0DB318E612C3F1899857C494CA9048F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0E570F951A4DE60A8F9E15F9615ED3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieTicketBookTests";
+			productName = "Pods-MovieTicketBookTests";
+			productReference = B4D4D56EA9E003401D1CDABF69F2F0E7 /* Pods_MovieTicketBookTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0C50B37305EA939987D21608A68AFBA /* Pods-MovieTicketBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F111926E08C5A7F0006296CA30CAAF /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBookUITests" */;
+			buildPhases = (
+				9F2E3F24658A879B28449C990F0007C1 /* Sources */,
+				C3DD198237B754CBC5C16E27CEFD88C1 /* Frameworks */,
+				104ECEDF11D4ADE4991E39EEED2932C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB5B544E07F78640D83E8B7ED1F524F /* PBXTargetDependency */,
+			);
+			name = "Pods-MovieTicketBookUITests";
+			productName = "Pods-MovieTicketBookUITests";
+			productReference = A17A19AB5B3ABF331B45AC8C36A95145 /* Pods_MovieTicketBookUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58B939017528F929E2B90D97D835D03C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31700DEAFD3D1BE3834114F3A1DBA85 /* Pods-MovieTicketBook */,
+				D9792E64C16E26583AD7DB5DC0A04B72 /* Pods-MovieTicketBookTests */,
+				F0C50B37305EA939987D21608A68AFBA /* Pods-MovieTicketBookUITests */,
+				0FAFE0708D8AA79CFA0C40E614AC75C7 /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2E3F24658A879B28449C990F0007C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7487DC5BC2E77068EB3F2916BE2156C /* Pods-MovieTicketBookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8100350363E7AB02F0982815D9B821C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0263E3861D1333EB8AB850C1EAC500C5 /* Pods-MovieTicketBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D86F9C661259A654139DF361C1D2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24165DEA5A4090207A84A3F58E83B6CB /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				366EF9A2C9C46A864E52D21AFA8C448F /* SkyFloatingLabelTextField.swift in Sources */,
+				0D7007D60DF0DB83B5DBA15C6F418DE0 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				75D313BF9F9AC531A7254217A071ADFC /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6A7FE62F1BEACE8ED6845316C41611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D254D0A3BAE67BD9BAA8D7189CEAFE /* Pods-MovieTicketBookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB5B544E07F78640D83E8B7ED1F524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MovieTicketBook";
+			target = B31700DEAFD3D1BE3834114F3A1DBA85 /* Pods-MovieTicketBook */;
+			targetProxy = E836E9191378694A01B4AC0C124C49DE /* PBXContainerItemProxy */;
+		};
+		32CE4DE599E1F60E596F65A8B7075457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 0FAFE0708D8AA79CFA0C40E614AC75C7 /* SkyFloatingLabelTextField */;
+			targetProxy = B99F566B00A11FEC266D14DC91186A5C /* PBXContainerItemProxy */;
+		};
+		BB0E570F951A4DE60A8F9E15F9615ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MovieTicketBook";
+			target = B31700DEAFD3D1BE3834114F3A1DBA85 /* Pods-MovieTicketBook */;
+			targetProxy = 9093C89CCE21506BB86B67E8E06B53C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		134323C0A4ACFEA00E400049E5ED0B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27FB5E2249C81F09EC1F087D6EA05174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B33A256EFF97DE7ECC3DCEC17EED03 /* Pods-MovieTicketBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBookTests/Pods-MovieTicketBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58E794A75B6CBAA70C820527E1C83662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3646A83A2942752E23468B3858D9930 /* Pods-MovieTicketBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBookTests/Pods-MovieTicketBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77956C0C1D53D8247A3B4377FB0C423D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7F0BA2852BF139477E7CEB5B7EF2BD /* Pods-MovieTicketBook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBook/Pods-MovieTicketBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BF5F6ECA8709D6924826C9720FD2FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF01F3662324FC64FAFA8AA32ED55DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A159741DA4411C190FD42F8AA4F6D55 /* Pods-MovieTicketBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBookUITests/Pods-MovieTicketBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E70F66B51B855D7ABA5C1555B4911F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E9FFA340807262D8A21759A064260001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103A3A3365679F99B49B14B61E985455 /* Pods-MovieTicketBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBookUITests/Pods-MovieTicketBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F359550B4AA7BF4AC9464537C21BD660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B41BE8D4CB4B6421A83E322438D21F /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F447110F2A39BD55A7B51E3B596B3690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EFA2BFF9CDC0362538117C1D56D71A /* Pods-MovieTicketBook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MovieTicketBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MovieTicketBook/Pods-MovieTicketBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CF1EF64194D4F518EFD6DE95840F48 /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB5E2249C81F09EC1F087D6EA05174 /* Debug */,
+				58E794A75B6CBAA70C820527E1C83662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF5F6ECA8709D6924826C9720FD2FBF /* Debug */,
+				E70F66B51B855D7ABA5C1555B4911F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F111926E08C5A7F0006296CA30CAAF /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FFA340807262D8A21759A064260001 /* Debug */,
+				AF01F3662324FC64FAFA8AA32ED55DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D22500B8AC4F390E15664318CD802B /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134323C0A4ACFEA00E400049E5ED0B29 /* Debug */,
+				F359550B4AA7BF4AC9464537C21BD660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5AB964ADBFDC510C460650A518CA09 /* Build configuration list for PBXNativeTarget "Pods-MovieTicketBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77956C0C1D53D8247A3B4377FB0C423D /* Debug */,
+				F447110F2A39BD55A7B51E3B596B3690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
