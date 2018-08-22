@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  MovieTicketBook
-//
-//  Created by Samvidya Edutech LLP on 21/08/18.
-//  Copyright © 2018 Samvidya Edutech LLP. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
